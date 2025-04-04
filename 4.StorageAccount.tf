@@ -23,9 +23,9 @@ resource "azurerm_storage_container" "demodata" {
   container_access_type = "private"
 } 
 
-#resource "azurerm_storage_container" "megastar" {
-#  name                  = "megastar"
-#  storage_account_id    = azurerm_storage_account.devsecopsmanojtfstate
-#  container_access_type = "private"
-#} 
+resource "azurerm_storage_container" "superstar" {
+  name                  = "superstar"
+  storage_account_id    = azurerm_storage_account.devsecopsmanojtfstate
+  container_access_type = "private"
+} 
     
