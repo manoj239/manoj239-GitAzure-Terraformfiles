@@ -39,7 +39,7 @@ git remote remove origin
 git push origin dev
 git log
 git log --oneline 
-#git clone git@git
+git clone git@git
 
 Terraform
 git fetch # Download the changes locally from remote 
