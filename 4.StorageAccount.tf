@@ -25,13 +25,13 @@ resource "azurerm_storage_container" "demodata" {
 
 resource "azurerm_storage_container" "megastar" {
   name                  = "megastar"
-  storage_account_id    = azurerm_storage_account.devsecopsmanojtfstate
+  storage_account_id    = azurerm_storage_account.devsecopsmanojtfstate.id
   container_access_type = "private"
 } 
     
 resource "azurerm_storage_container" "superstar" {
   name                  = "superstar"
-  storage_account_id    = azurerm_storage_account.devsecopsmanojtfstate
+  storage_account_id    = azurerm_storage_account.devsecopsmanojtfstate.id
   container_access_type = "private"
 } 
     
