@@ -3,15 +3,15 @@ terraform {
     azurerm = {
       source  = "hashicorp/azurerm"
       version = "4.24.0"
-    
-  }
-}
 
-backend "azurerm" {
-   resource_group_name  = "Enclave1"
-   storage_account_name = "devsecopsmanojtfstate"
-   container_name       = "tfstate"
-   key                  = "terraform.tfstate"
+    }
+  }
+
+  backend "azurerm" {
+    resource_group_name  = "Enclave1"
+    storage_account_name = "devsecopsmanojtfstate"
+    container_name       = "tfstate"
+    key                  = "terraform.tfstate"
   }
 }
 
