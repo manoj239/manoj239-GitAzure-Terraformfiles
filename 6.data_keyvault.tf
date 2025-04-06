@@ -1,3 +1,6 @@
+provider "random" {
+  # Configuration options
+}
 data "azurerm_key_vault" "Azueusingterraform" {
   provider            = azurerm.prod-subscription
   name                = "Azueusingterraform"

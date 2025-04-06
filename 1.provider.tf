@@ -17,12 +17,12 @@ terraform {
 
 
 provider "azurerm" {
-  #  subscription_id = "b8f51546-b91a-4cf3-bf28-802929fb7f38"
+    #subscription_id = "b8f51546-b91a-4cf3-bf28-802929fb7f38"
   features {}
 }
 
-#provider "azurerm" {
-#  alias           = "prod-subscription"
-#  subscription_id = "b8f51546-b91a-4cf3-bf28-802929fb7f38"
-#  features {}
-#} 
+provider "azurerm" {
+  alias           = "prod-subscription"
+  subscription_id = "b8f51546-b91a-4cf3-bf28-802929fb7f38"
+  features {}
+} 
