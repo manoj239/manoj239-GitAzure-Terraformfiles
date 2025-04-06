@@ -16,6 +16,7 @@ resource "azurerm_key_vault_secret" "password2" {
   name         = "password-2"
   value        = random_password.password2.result
   key_vault_id = data.azurerm_key_vault.Azueusingterraform.id
+  #key_vault_id = data.azurerm_key_vault.Azueusingterraform.id
 }
 
 resource "azurerm_key_vault_secret" "password3" {
