@@ -21,20 +21,20 @@ resource "azurerm_storage_container" "demodata" {
   name                  = "demodata"
   storage_account_id    = azurerm_storage_account.devsecopsmanojtfstate.id
   container_access_type = "private"
-} 
+}
 
 resource "azurerm_storage_container" "megastar" {
   name                  = "megastar"
   storage_account_id    = azurerm_storage_account.devsecopsmanojtfstate.id
   container_access_type = "private"
-} 
-    
+}
+
 resource "azurerm_storage_container" "superstar" {
   name                  = "superstar"
   storage_account_id    = azurerm_storage_account.devsecopsmanojtfstate.id
   container_access_type = "private"
-} 
-    
+}
+
 resource "azurerm_storage_container" "powerstar" {
   name                  = "powerstar"
   storage_account_id    = azurerm_storage_account.devsecopsmanojtfstate.id
