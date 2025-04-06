@@ -1,0 +1,9 @@
+rg1_name            = "Enclave1"
+rg2_name            = "Enclave2"
+rg1_location        = "eastus"
+rg2_location        = "eastus"
+env                 = "dev"
+vnet1_address_space = ["10.43.0.0/16"]
+vnet1_subnet1       = ["10.43.1.0/24"]
+vnet1_subnet2       = ["10.43.2.0/24"]
+vnet1_subnet3       = ["10.43.3.0/24"]

@@ -1,35 +1,14 @@
-#variable vnet1_address_space {
-#    type       = list(string)
-#    default    = ["10.43.0.0/16"]
-#}
-
-#variable vnet1_subnet1 {
-#    type      = list(string)
-#    default   = [ "10.43.1.0/24" ]
-#}
-#
-#variable vnet1_subnet2 {
-#    type      = list(string)
-#    default   = [ "10.43.2.0/24" ]
-#}
-#
-#variable vnet1_subnet3 {
-#    type      = list(string)
-#    default   = [ "10.43.3.0/24" ]
-#}
-
-
 resource "azurerm_virtual_network" "vnet1" {
   name = "vnet1"
   #Implicit Dependency for location & Resource Group on Enclave1
   location            = azurerm_resource_group.Enclave1.location
   resource_group_name = azurerm_resource_group.Enclave1.name
-  address_space       = ["10.43.0.0/16"]
-  #address_space      = var.vnet1_address_space
+  #address_space       = ["10.43.0.0/16"]
+  address_space = var.vnet1_address_space
 
   tags = {
-    environment = "Dev"
-    #environment = var.env
+    #environment = "Dev"
+    environment = var.env
   }
 }
 

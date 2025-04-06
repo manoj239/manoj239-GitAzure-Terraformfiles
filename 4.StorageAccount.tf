@@ -33,7 +33,6 @@ resource "azurerm_storage_container" "superstar" {
   name                  = "superstar"
   storage_account_id    = azurerm_storage_account.devsecopsmanojtfstate.id
   container_access_type = "private"
-<<<<<<< HEAD
 }
 
 resource "azurerm_storage_container" "powerstar" {
