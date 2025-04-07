@@ -9,8 +9,6 @@ resource "azurerm_storage_account" "devsecopsmanojtfstate" {
     environment = "Dev"
   }
 }
-
-
 resource "azurerm_storage_container" "tfstate" {
   name                  = "tfstate"
   storage_account_id    = azurerm_storage_account.devsecopsmanojtfstate.id
