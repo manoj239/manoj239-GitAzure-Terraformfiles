@@ -40,7 +40,7 @@ resource "azurerm_storage_container" "powerstar" {
 }
 
 resource "azurerm_storage_container" "stylishstar" {
-  name                  = "stylishstar"
+  name                  = "rowdystar"
   storage_account_id    = azurerm_storage_account.devsecopsmanojtfstate.id
   container_access_type = "private"
 }
