@@ -79,4 +79,18 @@ git merge branch1
 
     
     -soft -> Delete commits and stages the files
-    -mixed -> Delete commits and files will be in unstaged
+      - Delete  commits and changes are staged
+    -mixed(default) -> Delete commits and files will be in unstaged
+      - Delete commits and changes are not merged
+
+2. git revert  - Unlike git reset, revert dont delete any commits but it will 
+undo the changes and save it as new commit 
+
+3.git stash - Save/stash changes temporary as dev  is not ready to commit
+    - git stash 
+    - git stash list
+    - git stash apply or pop
+
+4.Git CherryPick - Take a specific commit from A branch and merge it with B branch
+git checkout A
+git cherry-pick <commit id from branch  B>
