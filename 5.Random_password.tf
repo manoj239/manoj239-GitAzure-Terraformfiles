@@ -7,7 +7,7 @@ resource "random_password" "password1" {
   special          = true
   override_special = "!@$#"
 }
- 
+
 resource "random_password" "password2" {
   length           = 16
   min_lower        = 4
@@ -17,7 +17,7 @@ resource "random_password" "password2" {
   special          = true
   override_special = "!@$#"
 }
- 
+
 resource "random_password" "password3" {
   length           = 16
   min_lower        = 4
