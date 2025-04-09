@@ -41,4 +41,4 @@ resource "azurerm_storage_container" "stylishstar" {
   container_access_type = "private"
 }
 
-#sddk
+#how come you know that there is error?
