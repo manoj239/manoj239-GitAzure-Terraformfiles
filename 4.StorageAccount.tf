@@ -41,4 +41,7 @@ resource "azurerm_storage_container" "stylishstar" {
   container_access_type = "private"
 }
 
-#added next more to go
+
+
+
+#lets see
