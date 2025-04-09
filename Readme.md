@@ -94,3 +94,19 @@ undo the changes and save it as new commit
 4.Git CherryPick - Take a specific commit from A branch and merge it with B branch
 git checkout A
 git cherry-pick <commit id from branch  B>
+
+5.Restore deleted branch with reflog.
+  - Using git reflog find the commit id.
+  - Use git checkout <commitid>
+  - git checkout -b <NewBranchName>
+
+### Class 3
+1. Git Merge 
+2. Git Rebase
+3. git interactive rebase
+    -Squash -> Squash in git means combining multiple commits into one. 
+    -Can delete selected commits   
+    See using git reset we can delete some range of commits , for deleting individual commits, we can use this git squash
+4. Git LFS - Large File system, if we see in Git hub and in Git lab, max file size is 100mb. If file size is more than 100mb, it will not accept for push and will throw error
+
+
