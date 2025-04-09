@@ -42,3 +42,4 @@ resource "azurerm_storage_container" "stylishstar" {
 }
 
 #how come you know that there is error?
+ebsco
