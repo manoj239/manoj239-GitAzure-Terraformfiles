@@ -41,9 +41,8 @@ resource "azurerm_storage_container" "stylishstar" {
   container_access_type = "private"
 }
 
-<<<<<<< HEAD
 #lets see
-=======
 
 #chudham
->>>>>>> 10943e24cd1b18f7a7ffc556a073670b58309de0
+
+#sddk
