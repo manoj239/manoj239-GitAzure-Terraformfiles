@@ -45,3 +45,4 @@ resource "azurerm_storage_container" "stylishstar" {
 #infosys
 #rebase
 #merge
+#delte
