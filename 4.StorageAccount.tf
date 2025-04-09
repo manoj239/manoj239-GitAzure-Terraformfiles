@@ -41,4 +41,8 @@ resource "azurerm_storage_container" "stylishstar" {
   container_access_type = "private"
 }
 
-#added next ok
+resource "azurerm_storage_container" "rebalstar" {
+  name                  = "rebalstar"
+  storage_account_id    = azurerm_storage_account.devsecopsmanojtfstate.id
+  container_access_type = "private"
+}
