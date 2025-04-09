@@ -35,8 +35,8 @@ resource "azurerm_storage_container" "superstar" {
 
 
 
-#resource "azurerm_storage_container" "stylishstar" {
-  #name                  = "stylishstar"
+resource "azurerm_storage_container" "stylishstar" {
+  name                  = "stylishstar"
   storage_account_id    = azurerm_storage_account.devsecopsmanojtfstate.id
   container_access_type = "private"
 }
