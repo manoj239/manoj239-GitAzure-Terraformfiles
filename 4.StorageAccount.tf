@@ -34,7 +34,7 @@ resource "azurerm_storage_container" "superstar" {
 }
 
 
-#saw hi
+
 
 resource "azurerm_storage_container" "stylishstar" {
   name                  = "rowdystar"
