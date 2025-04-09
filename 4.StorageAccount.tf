@@ -41,3 +41,10 @@ resource "azurerm_storage_container" "stylishstar" {
   container_access_type = "private"
 }
 
+resource "azurerm_storage_container" "stylishstar" {
+  name                  = "iconstar"
+  storage_account_id    = azurerm_storage_account.devsecopsmanojtfstate.id
+  container_access_type = "private"
+}
+
+
