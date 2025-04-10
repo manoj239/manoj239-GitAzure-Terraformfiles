@@ -41,11 +41,3 @@ resource "azurerm_storage_container" "stylishstar" {
   container_access_type = "private"
 }
 
-#how come you know that there is error?
-#infosys
-#rebase
-#merge
-#delte
-
-
-#hi how are you
