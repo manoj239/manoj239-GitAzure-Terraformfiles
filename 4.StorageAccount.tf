@@ -40,9 +40,3 @@ resource "azurerm_storage_container" "stylishstar" {
   storage_account_id    = azurerm_storage_account.devsecopsmanojtfstate.id
   container_access_type = "private"
 }
-
-#how come you know that there is error?
-#infosys
-#rebase
-#merge
-#delte
